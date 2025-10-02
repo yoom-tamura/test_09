@@ -1,0 +1,19 @@
+import utils
+
+def main():
+  """メインの処理を実行する"""
+  a = 10
+  b = 5
+
+  sum_result = utils.add_numbers(a, b)
+  print(f"{a} + {b} = {sum_result}")
+
+  diff_result = utils.subtract_numbers(a, b)
+  print(f"{a} - {b} = {diff_result}")
+
+  # マジックナンバーを使っている例
+  if a > 9:
+    print("aは9より大きいです。")
+
+if __name__ == "__main__":
+  main()
